@@ -1,7 +1,10 @@
 <template>
   <div id="app" class="center-in-grid">
+    
     <DateText class="date" :year="year" :month="month" :day="day"/>
+
     <QuoteText class="quote">{{quote}}</QuoteText>
+    
     <section id="buttons">
       <BulmaButton :onClick="prevQuote">
         <span class="icon">
@@ -16,6 +19,7 @@
         </span>
       </BulmaButton>
     </section>
+
   </div>
 </template>
 
@@ -61,6 +65,7 @@ export default {
 
         this.day = quotes[this.month - 1].length
       }
+
     },
     nextQuote() {
       
@@ -76,6 +81,7 @@ export default {
           this.month = 1
         }
       }
+
     }
   }
 }
