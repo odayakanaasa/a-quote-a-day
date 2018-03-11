@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <p class="subtitle is-5">{{year}}.{{String(month).padStart(2, '0')}}.{{String(day).padStart(2, '0')}}</p>
-    <QuoteText >{{quote}}</QuoteText> <br>
+  <div id="app" class="center-in-grid">
+    <DateText class="date" :year="year" :month="month" :day="day"/>
+    <QuoteText class="quote">{{quote}}</QuoteText>
     <section id="buttons">
       <BulmaButton :onClick="prevQuote">
         <span class="icon">
@@ -22,6 +22,7 @@
 <script>
 import QuoteText from './components/QuoteText'
 import BulmaButton from './components/BulmaButton'
+import DateText from './components/DateText'
 
 import quotes from './quotes'
 
@@ -29,12 +30,13 @@ export default {
   name: 'App',
   components: {
     QuoteText,
-    BulmaButton
+    BulmaButton,
+    DateText
   },
   data() {
     return {
       month: 1,
-      day: 3
+      day: 4
     }
   },
   computed: {
@@ -81,40 +83,31 @@ export default {
 
 <style lang="scss">
 @import "~bulma/sass/utilities/initial-variables";
-$yellow: #F8EFBA;
-$orange: #FEA47F;
-$blue: #25CCF7;
-$dark: #2C3A47;
-$primary: $dark;
 
+$orange: #FABE58;
+$dark: #2C3A47;
+
+$primary: $dark;
 $family-primary: 'IBM Plex Mono';
+
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/sass/base/_all.sass";
 /*import elements, grid, components, and then layout (in that order)*/
-@import "~bulma/sass/elements/box.sass";
 @import "~bulma/sass/elements/button.sass";
-@import "~bulma/sass/elements/content.sass";
-@import "~bulma/sass/elements/image.sass";
 @import "~bulma/sass/elements/icon.sass";
 @import "~bulma/sass/elements/other.sass";
-@import "~bulma/sass/elements/tag.sass";
 @import "~bulma/sass/elements/title.sass";
-@import "~bulma/sass/grid/columns.sass";
-@import "~bulma/sass/components/navbar.sass";
-@import "~bulma/sass/components/tabs.sass";
-@import "~bulma/sass/components/menu.sass";
 @import "~bulma/sass/layout/_all.sass";
 
-html{
-  background: $yellow;
+html {
+  background-color: $orange;
 }
 
-#app{
+#app {
   text-align: center;
-  margin-top: 128px;
 }
 
-#buttons{
+#buttons { 
   position: fixed;
   bottom: 128px;
   @media screen and (max-width: 768px){
@@ -124,4 +117,22 @@ html{
   right: 0;
 }
 
+.date {
+  position: fixed;
+  top: 128px;
+  @media screen and (max-width: 768px){
+    top: 64px;
+  }
+  left: 0;
+  right: 0;
+}
+
+.quote {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
 </style>
