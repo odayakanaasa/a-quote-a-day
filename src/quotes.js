@@ -44,7 +44,7 @@ const quotes = [
     // 21
     "No one, while steeped in sensuous pleasures, can ever find abidance in Brahman. Can lotuses ever grow on rocks or hair on tortoise shells?",
     // 22
-    "Continuous change alone is the changless flaw.",
+    "Continuous change alone is the changeless flaw.",
     // 23
     "Death connotes not only the condition of the body when life has ebbed out from it, but includes the very principle of change and finitude.",
     // 24
@@ -64,7 +64,33 @@ const quotes = [
     // 31
     "You are never away from Him. You are in Him, with Him, at Him. You are Him alone."
   ],
-  // FEBRUARY []
+  // FEBRUARY 
+  [
+    // 1 (skipped a few beginning words on the page)
+    "Young men never care to listen to advice. This is their nature. Nobody needs to curse them for it. Yet when they once trip and fall, they learn for themselves. A serious scare is always worth more to a teenager than any amount of advice.",
+    // 2
+    "Actions are the louder expression of thought. The quality of thought is ordered by the nature of our inner belief and faith.",
+    // 3
+    "Any activity undertaken by a perfect Master does not and cannot bring about any consequences, good or evil, upon Him. He is only a divine instrument.",
+    // 4
+    "It is a matter of common experience that the knowledge of a subject by itself will not enable a person to act always according to it.",
+    // 5
+    "Meet life as it reaches you. With or without the things our minds demand, life can be a brilliant success. But, for this, we must discover something else to depend upon. Seek that something within yourself, not outside.",
+    // 6
+    "Man becomes high or low according to his deeds.",
+    // 7
+    "The contents of the present moment, divorced from all relationships with the past and future, is the absolute fullness of the Infinite.",
+    // 8
+    "Carefully navigate around the dangerous rocks of thy own lower nature. Thou shall reach the eternal heaven of peace and bliss — Truth.",
+    // 9
+    "Mind at rest is the temple joy. So long as it is gurgling with its desires, passions and attachments in its stormy surface, the signature of joy gets ruffled out.",
+    // 10
+    "In life, the glory lies not in the quarry, but in the chase. The success is not in the trophy won but in the race run.",
+    // 11
+    "Comfort comes as a guest, lingers to become the host, and stays to enslave us.",
+    // 12
+    "To be patient means to suffer something that hinders or hurts us, and still retain our self-composure. How many difficulties, with their consequent unpleasantness and discord, could be smoothed over and almost entirely eliminated by patience. Patience always elevates and strengthens our character. We need patience not only with others, but also with ourselves."
+  ]
 ]
 
 quotes.forEach(

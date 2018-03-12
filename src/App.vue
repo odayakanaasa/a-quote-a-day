@@ -3,7 +3,7 @@
     
     <DateText class="date" :year="year" :month="month" :day="day"/>
 
-    <QuoteText class="quote">{{quote}}</QuoteText>
+    <QuoteText class="quote" :size="quoteSize">{{quote}}</QuoteText>
     
     <section id="buttons">
       <BulmaButton :onClick="prevQuote">
@@ -40,12 +40,38 @@ export default {
   data() {
     return {
       month: 1,
-      day: 4
+      day: 3
     }
   },
   computed: {
     quote() {
       return quotes[this.month - 1][this.day - 1]
+    },
+    quoteSize() {
+
+      // size in terms of rem
+      let size = 1.5
+      const num_words = this.quote.split(' ').length
+      console.log(num_words)
+
+      switch (true) {
+        case num_words > 40:
+          size = 0.9
+          break;
+        case num_words > 30:
+          size = 1
+          break;
+        case num_words > 20:
+          size = 1.2
+          break;
+        case num_words > 10:
+          size = 1.5
+          break;
+        default:
+          size = 1.5
+      }
+
+      return size
     },
     year(){
       return (new Date()).getFullYear()
