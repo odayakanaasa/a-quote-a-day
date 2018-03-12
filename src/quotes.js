@@ -194,7 +194,27 @@ const quotes = [
     "If money does not bring happiness, give it back.",
   ],
   
-  // APRIL []
+  // APRIL 
+  [
+    // 1
+    "History is full of instances wherein victory would have been vanquished, if only they had battled a little longer! We often fail for the lack of perseverance in our efforts. We leave our work half done, in our impatience. Every job demands its quota of efforts. Never give up too soon. Strive on until you win!",
+    // 2
+    "Enthusiasm is the very fuel in all great men. By inexhaustible ardour for whatever they undertake to accomplish, they generate an extraordinary drive for action. In spiritual self-improvement and in serving the nation in its cultural and spiritual aspects, the workers and missionaries must discover within themselves the secret of invoking this trajectory-force of true and flawless enthusiasm.",
+    // 3
+    "This is the very call of the Gita: \"Tasmāt uttiśṭha kaunteya yuddhāya kṛta niścayaḥ — Shed your fear. Get up, determined to fight and win!\" Get up my countrymen — determined to fight, to die if need be — for the sacred Bhārata.",
+    // 4
+    "In the darkness of ignorance, we attach ourselves to the unreal and the fleeting. In the light of knowledge, we identify ourselves with the real and the permanent.",
+    // 5
+    "Have patience and live in true endeavor with Īśvara smaraṇa. The best will surely turn up. Now and then, in everybody's life comes a small crisis. Face it bravely. The Lord looks after everyone.",
+    // 6
+    "The man who is not proud of his motherland and who is not true to his customary duties must be regarded as a base, ungrateful fellow.",
+    // 7
+    "We may often give without love, but we can never love without giving.",
+    // 8
+    "The quality of a mind determines how the ego reacts to a given challenge.",
+    // 9
+    "Live morality before you talk about it. Practice meditation before you preach it. Taste goodness before you reccommend it. Gain bliss before you offer it to others."
+  ]
 ]
 
 
