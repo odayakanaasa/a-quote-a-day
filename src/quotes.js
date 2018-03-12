@@ -89,8 +89,43 @@ const quotes = [
     // 11
     "Comfort comes as a guest, lingers to become the host, and stays to enslave us.",
     // 12
-    "To be patient means to suffer something that hinders or hurts us, and still retain our self-composure. How many difficulties, with their consequent unpleasantness and discord, could be smoothed over and almost entirely eliminated by patience. Patience always elevates and strengthens our character. We need patience not only with others, but also with ourselves."
-  ]
+    "To be patient means to suffer something that hinders or hurts us, and still retain our self-composure. How many difficulties, with their consequent unpleasantness and discord, could be smoothed over and almost entirely eliminated by patience. Patience always elevates and strengthens our character. We need patience not only with others, but also with ourselves.",
+    // 13
+    "Man is the roof and crown of creation. He may be tossed about by uncertain storms of life, but the solution to it lies in his own efforts in finding an ideal and then raising his personality, from the level of petty emotions, to the loftier heights of the chosen ideal.",
+    // 14
+    "Our present work may be great or small. Yet, the important thing is to do it well.",
+    // 15
+    "The Lord is ever with you. Your own anxieties and fears are veiling Him from you. He is so near to you that you cannot see Him. You are in Him — at Him. You are He alone.",
+    // 16 
+    "Even the devil knoweth not the mind of man.",
+    // 17
+    "You alone are in your heart. You unconsciously got locked in and you cry out to others to open up and release you. Nobody can. Stop crying. Find the handle and turn it...Lo! It has opened, and you immediately get a blast of the life-giving, reviving breeze of fragrant, cool love from all around.",
+    // 18
+    "Even though you have not conquered the battles of the world, you become the world-conquerer when you have conquered your mind.",
+    // 19
+    "Stop all your attachments to false values. In an ever changing world, there is nothing worthwhile for us to desire or weep for. Joys and sorrows are bound to come in human life; they are just like the two sides of the same coin.",
+    // 20
+    "The mighty Himalayas seem to symbolize the Almighty Himself, and the Ganges looks as if she were overflowing with milk.",
+    // 21
+    "A Brahmatman is one whose Atman has become one with Brahman; one who has found his identity with the Self everywhere. He is called Brahmavid, the knower of Brahman.",
+    // 22
+    "The incompetent and the ineffectual alone grumble that they would have done much more had the circumstances been different.",
+    // 23
+    "The inward tremors are experienced only when any burning desire has conquered us completely.",
+    // 24
+    "Dignity of labour consists in service.",
+    // 25
+    "Efficiency is the capacity to bring proficiency into expression.",
+    // 26
+    "Equanimity in the face of life's challenges must not flow out from the dark cages of one's inertia and stupidity; it must gurgle out from one's own wisdom and understanding.",
+    // 27 
+    "Clarity is an attempt wherein I try to expand and bring into the ambit of my life, all others around me and grow to consider the other man's needs and requirements as important as my own personal needs. To live seeking an identity thus, with at least those who are immediately around me, is to live away from the suffocating selfishness and the throttling grip of my body-consciousness.",
+    // 28
+    "Liberation or attainment of perfection is a condition experienced by the mind; liberation is only for the mind because the mind alone was in bondage.",
+    // 29
+    "Man awakened to the Self's glory is God. God, forgetful of His own true nature is the deluded man."
+  ],
+  // MARCH []
 ]
 
 quotes.forEach(

@@ -10,10 +10,10 @@
         <span class="icon">
           <i class="fas fa-angle-left"></i>
         </span>
-        <span>Prev</span>
+        <span>prev</span>
       </BulmaButton>
       <BulmaButton :onClick="nextQuote">
-        <span>Next</span>
+        <span>next</span>
         <span class="icon">
           <i class="fas fa-angle-right"></i>
         </span>
