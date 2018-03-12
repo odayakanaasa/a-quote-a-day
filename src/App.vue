@@ -39,8 +39,8 @@ export default {
   },
   data() {
     return {
-      month: 1,
-      day: 3
+      month: (new Date).getMonth() + 1,
+      day: (new Date).getDate(),
     }
   },
   computed: {

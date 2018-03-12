@@ -125,7 +125,33 @@ const quotes = [
     // 29
     "Man awakened to the Self's glory is God. God, forgetful of His own true nature is the deluded man."
   ],
-  // MARCH []
+  // MARCH 
+  [
+    // 1
+    "Faith in yourself and in the goodness of the Supreme are necessary accessories for accomplishing all great achievements. But, mere blind faith is impotent. It must be followed by sweaty efforts and panting hours of work. You accomplish nothing with faith alone, and you can do nothing without it. Cultivate faith and support it with your honest and sincere efforts.",
+    // 2
+    "Action includes not only physical but also mental actions, conscious and subconscious. Action is, in short, everything we think and do.",
+    // 3
+    "The quality of activities cannot be raised unless we raise the very texture of our thoughts and the depth of our understanding.",
+    // 4
+    "The knowledge of the Brahman is the immediate perception of non-difference between Brahman on the one hand and the universe on the other.",
+    // 5
+    "Silently hear everyone. Accept what is good; reject and forget to remember what is bad. This is the way to live intelligently in life.",
+    // 6
+    "By birth man does not become an outcast nor does he become a high caste man. He becomes high or low according to his deeds.",
+    // 7
+    "Love is to human hearts what the sun is to flowers!",
+    // 8
+    "Suffering depends, not upon the factual happneings, but open the texture of each one's mind.",
+    // 9
+    "Some act till they meet obstacles; others act in spite of obstacles and conquer them; but some act not fearing the possibility of obstacles that might arise enroute.",
+    // 10
+    "Become quietly effective. Don't expect \"them\" to fully understand you. They won't! So, demonstrate with results, what they would not understand with words!",
+    // 11
+    "Wisdom is the assimilated knowledge in us, gained from an intelligent estimation and close study of our own direct and indirect experience in the world.",
+    // 12
+    "To train ourselves to endure meekly the little pinpricks of life with magnanimous joy — heat and cold, pain and pleasure, success and failure — is itself the highest sadhana."
+  ]
 ]
 
 quotes.forEach(
