@@ -1,4 +1,5 @@
 const quotes = [
+
   // JANUARY
   [
     // 1
@@ -36,7 +37,7 @@ const quotes = [
     // 17
     "It takes two to make a quarrel. Also it takes two to make up after a quarrel. Without invoking love, this can never be accomplished.",
     // 18
-    "'End the mind and remain great' is the thunderous bidding from every corner in the Hall of Vedanta",
+    "\"End the mind and remain great\" is the thunderous bidding from every corner in the Hall of Vedanta",
     // 19
     "To give love is true freedom; to demand love is pure slavery.",
     // 20
@@ -64,6 +65,7 @@ const quotes = [
     // 31
     "You are never away from Him. You are in Him, with Him, at Him. You are Him alone."
   ],
+
   // FEBRUARY 
   [
     // 1 (skipped a few beginning words on the page)
@@ -125,6 +127,7 @@ const quotes = [
     // 29
     "Man awakened to the Self's glory is God. God, forgetful of His own true nature is the deluded man."
   ],
+
   // MARCH 
   [
     // 1
@@ -150,14 +153,58 @@ const quotes = [
     // 11
     "Wisdom is the assimilated knowledge in us, gained from an intelligent estimation and close study of our own direct and indirect experience in the world.",
     // 12
-    "To train ourselves to endure meekly the little pinpricks of life with magnanimous joy — heat and cold, pain and pleasure, success and failure — is itself the highest sadhana."
-  ]
+    "To train ourselves to endure meekly the little pinpricks of life with magnanimous joy — heat and cold, pain and pleasure, success and failure — is itself the highest sadhana.",
+    // 13
+    "A man of wisdom lives in the world, but he is never of the world.",
+    // 14
+    "Everyone points to the other man, who, according to him, is happier. But the only one who has the courage to declare that he is truly happy is he who has relinquished all his passions and hungers from within.",
+    // 15
+    "The fiery touch of the Lord's grace, when it descends upon His devotees, is invariably felt by the seeker more as a refreshing shower of divine mercy.",
+    // 16
+    "Yoga is skill in action.",
+    // 17
+    "Not sickness, but health is the mystery of life.",
+    // 18
+    "Whatever springs in the mind — man expresses it.",
+    // 19
+    "Without devotion, knowledge is tasteless. Without knowledge, devotion is mere empty idol worship.",
+    // 20
+    "Anger is nothing but an attachment for an object when expressed towards an obstacle between ourselves and the object of our attachment.",
+    // 21
+    "Among men, he whose mind is ever fixed on Brahman, is the best and noblest.",
+    // 22
+    "Wherever there is the concept of the other, there is fear, restlessness, agitation, worry, anxiety, each following the other.",
+    // 23
+    "Desire is at the root of all actions, good or evil.",
+    // 24
+    "Act efficiently whenever you work. The results of action depend upon the very quality of action.",
+    // 25
+    "\"Renounce ego\" is the Lord's only request. \"And I will make you God\" is the promise.",
+    // 26
+    "Evolution is not an accident. It is a logical development and has its stages.",
+    // 27
+    "Work without faith and prayer without sincerity are like artifical flowers — without fragrance.",
+    // 28
+    "A quiet mind produces a more brilliant intellect.",
+    // 29
+    "Learn to speak softly always words of love and affection, then friends multiply.",
+    // 30
+    "God is not purchasable nor is He available for one's persuasions to be an ally in one's animalistic activities.",
+    // 31
+    "If money does not bring happiness, give it back.",
+  ],
+  
+  // APRIL []
 ]
 
+
+// print all quotes
+/*
 quotes.forEach(
   (month, m) => month.forEach(
     (quote_of_the_day, d) => console.log(`${m+1}/${d+1}: ${quote_of_the_day}\n`)
   )
 )
+*/
 
 export default quotes

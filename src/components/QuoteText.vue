@@ -1,7 +1,7 @@
 <template>
 <div>
-<h3 class="title is-5 is-spaced" :style="{fontSize: size + 'rem'}"><slot></slot></h3>
-<h5 class="subtitle is-5 is-spaced">SWAMI CHINMAYANDA</h5>
+<h5 class="title is-5 is-spaced" :style="{fontSize: size + 'rem'}"><slot></slot></h5>
+<h6 class="subtitle is-6 is-spaced">SWAMI CHINMAYANDA</h6>
 </div>
 </template>
 
@@ -11,9 +11,12 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+@import url('https://rsms.me/inter/inter-ui.css');
+$sans-serif: 'Inter UI', sans-serif;
 
-<style scoped>
-h3, h5 {
+h5, h6 {
+  font-family: $sans-serif;
   line-height: 2em;
 }
 </style>

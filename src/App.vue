@@ -52,7 +52,6 @@ export default {
       // size in terms of rem
       let size = 1.5
       const num_words = this.quote.split(' ').length
-      console.log(num_words)
 
       switch (true) {
         case num_words > 40:
@@ -120,7 +119,11 @@ $orange: #FABE58;
 $dark: #2C3A47;
 
 $primary: $dark;
-$family-primary: 'IBM Plex Mono';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/IBM-type/0.5.4/css/ibm-type.min.css');
+$monospace: 'IBM Plex Mono', monospace;
+
+$family-primary: $monospace;
 
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/sass/base/_all.sass";
