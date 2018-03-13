@@ -12,6 +12,9 @@
         </span>
         <span>prev</span>
       </BulmaButton>
+      <BulmaButton :onClick="todayQuote"  :style="{ visibility: todayQuoteButtonVisibility }">
+        <span>today</span>
+      </BulmaButton>
       <BulmaButton :onClick="nextQuote">
         <span>next</span>
         <span class="icon">
@@ -46,6 +49,9 @@ export default {
   computed: {
     quote() {
       return quotes[this.month - 1][this.day - 1]
+    },
+    todayQuoteButtonVisibility() {
+      return this.month == (new Date).getMonth() + 1 && this.day == (new Date).getDate() ? 'hidden' : 'visible'
     },
     quoteSize() {
 
@@ -91,6 +97,10 @@ export default {
         this.day = quotes[this.month - 1].length
       }
 
+    },
+    todayQuote() {
+      this.month = (new Date).getMonth() + 1
+      this.day = (new Date).getDate()
     },
     nextQuote() {
       

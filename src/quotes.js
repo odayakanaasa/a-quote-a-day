@@ -213,7 +213,13 @@ const quotes = [
     // 8
     "The quality of a mind determines how the ego reacts to a given challenge.",
     // 9
-    "Live morality before you talk about it. Practice meditation before you preach it. Taste goodness before you reccommend it. Gain bliss before you offer it to others."
+    "Live morality before you talk about it. Practice meditation before you preach it. Taste goodness before you reccommend it. Gain bliss before you offer it to others.",
+    // 10
+    "Humans as we are, let us never look back for a moment, but dynamically march forward creating a glorious future of magnificient achievements by rightly exercising the independent self-effort that is man's prerogative.",
+    // 11
+    "Temper brings you trouble. Pride kees you there!",
+    // 12
+    "Life is full of waves — pain and pleasure, gain and loss, conquest and defeat must buffet the waters of life. Otherwise, it is complete stagnation. It is death."
   ]
 ]
 
