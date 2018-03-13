@@ -73,7 +73,7 @@ export default {
           size = 1.5
           break;
         default:
-          size = 1.5
+          size = 1.9
       }
 
       return size

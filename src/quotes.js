@@ -219,8 +219,45 @@ const quotes = [
     // 11
     "Temper brings you trouble. Pride kees you there!",
     // 12
-    "Life is full of waves — pain and pleasure, gain and loss, conquest and defeat must buffet the waters of life. Otherwise, it is complete stagnation. It is death."
-  ]
+    "Life is full of waves — pain and pleasure, gain and loss, conquest and defeat must buffet the waters of life. Otherwise, it is complete stagnation. It is death.",
+    // 13
+    "The secret of success, behind all men of achievement, lies in the faculty of applying their intellect in all their activities, without being misled by any surging emotions or feelings. The secret of success in life lies in keeping the head above the storms of the heart.",
+    // 14
+    "In all worthwhile undertakings, there will be risks of failure, of disappointments, of even disaster. To face them all with inner poise and firm faith is to discover the glory of final victory. A conquest without facing dangers is as dull as victory without a shining glory — a game without a prize!",
+    // 15
+    "The greatness in an ideology is not in fact in the ideology; it is in the subject who lives that ideology.",
+    // 16
+    "The secret of action is to get established in equanimity, renouncing all egocentric attachments and forgetting to worry over our successes and failures.",
+    // 17
+    "At all times, send our thoughts of love to all; kindness to all; blessing to all. Soon you will find all including your enemies, showering you with love.",
+    // 18
+    "The mind has to be raised step by step from the gross state to the subtle state; then to the causal state and still further to the great cause, and thus finally to Samādhi.",
+    // 19
+    "The leisurely moments of contemplation are the occasions when the dreadful mask of nature falls off and we peep into the encouraging, kindly beauty of life and its environments. Thoreau asserts, \"When we are unhurried and wise, we perceive that only great and worthy things have any permanent and absolute existence; that petty fears and petty pleasures are but the shadow of the reality.\"",
+    // 20
+    "Ātman is sat-cit-ānanda as electricity is heat-cold-light.",
+    // 21
+    "The difference between Brahman and the world of objects is the lateral inversion. Consciousness is infinite; the world is finite.",
+    // 22
+    "Multiplicity of worldly concerns binds down a sannyāsin as much as any householder.",
+    // 23
+    "Conquest of desire is kaivalya — the highest goal of man.",
+    // 24
+    "God is not an object to be found outside. Stop searching! Discover Him within.",
+    // 25
+    "The ego, born into a suitable physical body and living through the required field of circumstances gathers the matured fruits of actions done in ignorance and animalism in the past.",
+    // 26
+    "Running away from life is not the way to reach the highest goal of evolution.",
+    // 27
+    "It is but human to make mistakes, to fall prey to some temptation, to get enchanted by some false emotion, or to elope with a wrong intention. But how quickly can one regain his original goodness measures one's spiritual poise acquired. In short, fall often as you must, but don't lie down where you have fallen like a rock. Be yourself, ever like a rubber ball; rebound and pant up to reach again the summit from where you had the fall!",
+    // 28
+    "The quieter the mind, the sharper the intellect.",
+    // 29
+    "In short, the ability to love and express it in action is the requirement in gathering more and more friends. In fact, love in action is the heart of all religions.",
+    // 30
+    "Know what to do and then do it yourself."
+  ],
+  // MAY []
 ]
 
 
