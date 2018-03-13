@@ -11,7 +11,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "build": "node build/build.js",
-    "deploy": "npm run build && surge dist --domain=daily-inspiration.surge.sh"
+    "deploy": "npm run build && surge dist --domain=a-quote-a-day.surge.sh"
   },
   "dependencies": {
     "bulma": "^0.6.2",
