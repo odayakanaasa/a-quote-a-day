@@ -1,7 +1,4 @@
-# daily-inspiration
+# a-quote-a-day
 
 A quote a day
 
-## To-do
-* transitions after clicking buttons
-* notifications

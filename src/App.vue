@@ -40,10 +40,13 @@ export default {
     BulmaButton,
     DateText
   },
+  mounted() {
+    alert("this isn't complete")
+  },
   data() {
     return {
-      month: (new Date).getMonth() + 1,
-      day: (new Date).getDate(),
+      month: 1, //(new Date).getMonth() + 1,
+      day: 1, //(new Date).getDate(),
     }
   },
   computed: {
@@ -60,9 +63,6 @@ export default {
       const num_words = this.quote.split(' ').length
 
       switch (true) {
-        case num_words > 30:
-          size = 1
-          break;
         case num_words > 20:
           size = 1.2
           break;
@@ -147,14 +147,23 @@ html {
 
 #app {
   text-align: center;
-  padding: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .Date, .Quote, .Buttons {
-  padding: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   @media screen and (min-width: 1024px){
-    padding: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
+}
+
+.Quote {
+  padding: 16px;
 }
 
 </style>
