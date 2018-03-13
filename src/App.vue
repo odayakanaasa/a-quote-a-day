@@ -1,11 +1,11 @@
 <template>
   <div id="app" class="center-in-grid">
     
-    <DateText class="date" :year="year" :month="month" :day="day"/>
+    <DateText class="Date" :year="year" :month="month" :day="day"/>
 
-    <QuoteText class="quote" :size="quoteSize">{{quote}}</QuoteText>
+    <TheQuoteText class="Quote" :size="quoteSize">{{quote}}</TheQuoteText>
     
-    <section id="buttons">
+    <section class="Buttons">
       <BulmaButton :onClick="prevQuote">
         <span class="icon">
           <i class="fas fa-angle-left"></i>
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import QuoteText from './components/QuoteText'
+import TheQuoteText from './components/TheQuoteText'
 import BulmaButton from './components/BulmaButton'
 import DateText from './components/DateText'
 
@@ -36,7 +36,7 @@ import quotes from './quotes'
 export default {
   name: 'App',
   components: {
-    QuoteText,
+    TheQuoteText,
     BulmaButton,
     DateText
   },
@@ -60,9 +60,6 @@ export default {
       const num_words = this.quote.split(' ').length
 
       switch (true) {
-        case num_words > 40:
-          size = 0.9
-          break;
         case num_words > 30:
           size = 1
           break;
@@ -125,7 +122,7 @@ export default {
 <style lang="scss">
 @import "~bulma/sass/utilities/initial-variables";
 
-$orange: #FABE58;
+$white: #ECF0F1;
 $dark: #2C3A47;
 
 $primary: $dark;
@@ -145,39 +142,19 @@ $family-primary: $monospace;
 @import "~bulma/sass/layout/_all.sass";
 
 html {
-  background-color: $orange;
+  background-color: $white;
 }
 
 #app {
   text-align: center;
+  padding: 16px;
 }
 
-#buttons { 
-  position: fixed;
-  bottom: 128px;
-  @media screen and (max-width: 768px){
-    bottom: 64px;
+.Date, .Quote, .Buttons {
+  padding: 32px;
+  @media screen and (min-width: 1024px){
+    padding: 64px;
   }
-  left: 0;
-  right: 0;
 }
 
-.date {
-  position: fixed;
-  top: 128px;
-  @media screen and (max-width: 768px){
-    top: 64px;
-  }
-  left: 0;
-  right: 0;
-}
-
-.quote {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 80vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
 </style>

@@ -1,7 +1,7 @@
 <template>
 <div>
-<h5 class="title is-5 is-spaced" :style="{fontSize: size + 'rem'}"><slot></slot></h5>
-<h6 class="subtitle is-6 is-spaced">SWAMI CHINMAYANDA</h6>
+  <h5 class="title is-5 is-spaced has-text-dark" :style="{fontSize: size + 'rem'}"><slot></slot></h5>
+  <h6 class="subtitle is-6 has-text-dark">SWAMI CHINMAYANDA</h6>
 </div>
 </template>
 
